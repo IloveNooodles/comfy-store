@@ -1,6 +1,4 @@
-import { getElement } from '../utils.js';
-import display from '../displayProducts.js';
-
-const setupCompanies = () => {};
-
-export default setupCompanies;
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const setupCompanies = () => { };
+exports.default = setupCompanies;

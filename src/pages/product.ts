@@ -1,9 +1,11 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 // global imports
-require("../toggleSidebar.js");
-require("../cart/toggleCart.js");
-require("../cart/setupCart.js");
+import '../toggleSidebar.js';
+import '../cart/toggleCart.js';
+import '../cart/setupCart.js';
+// specific
+import { addToCart } from '../cart/setupCart.js';
+import { singleProductUrl, getElement, formatPrice } from '../utils.js';
+
 // selections
 // const loading = getElement('.page-loading');
 // const centerDOM = getElement('.single-product-center');
@@ -15,6 +17,8 @@ require("../cart/setupCart.js");
 // const colorsDOM = getElement('.single-product-colors');
 // const descDOM = getElement('.single-product-desc');
 // const cartBtn = getElement('.addToCartBtn');
+
 // cart product
 // let productID;
+
 // show product when page loads

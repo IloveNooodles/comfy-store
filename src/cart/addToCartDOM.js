@@ -1,5 +1,4 @@
-import { formatPrice, getElement } from '../utils.js';
-
-const addToCartDOM = () => {};
-
-export default addToCartDOM;
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const addToCartDOM = () => { };
+exports.default = addToCartDOM;

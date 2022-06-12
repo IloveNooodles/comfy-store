@@ -1,1 +1,2 @@
-import { getElement } from './utils.js';
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });

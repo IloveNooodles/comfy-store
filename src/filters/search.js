@@ -1,5 +1,4 @@
-import { getElement } from '../utils.js';
-import display from '../displayProducts.js';
-const setupSearch = () => {};
-
-export default setupSearch;
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const setupSearch = () => { };
+exports.default = setupSearch;

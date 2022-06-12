@@ -1,13 +1,6 @@
-// import
-import {
-  getStorageItem,
-  setStorageItem,
-  formatPrice,
-  getElement,
-} from '../utils.js';
-import { openCart } from './toggleCart.js';
-import { findProduct } from '../store.js';
-import addToCartDOM from './addToCartDOM.js';
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.addToCart = void 0;
 // set items
-
-export const addToCart = () => {};
+const addToCart = () => { };
+exports.addToCart = addToCart;

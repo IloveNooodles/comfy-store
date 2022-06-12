@@ -1,5 +1,4 @@
-import { formatPrice } from './utils.js';
-import { addToCart } from './cart/setupCart.js';
-const display = () => {};
-
-export default display;
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const display = () => { };
+exports.default = display;

@@ -1,5 +1,4 @@
-import { allProductsUrl } from './utils.js';
-
-const fetchProducts = async () => {};
-
-export default fetchProducts;
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const fetchProducts = async () => { };
+exports.default = fetchProducts;

@@ -1,5 +1,9 @@
-import { getStorageItem, setStorageItem } from './utils.js';
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.findProduct = exports.setupStore = exports.store = void 0;
 let store = [];
-const setupStore = () => {};
-const findProduct = () => {};
-export { store, setupStore, findProduct };
+exports.store = store;
+const setupStore = () => { };
+exports.setupStore = setupStore;
+const findProduct = () => { };
+exports.findProduct = findProduct;
