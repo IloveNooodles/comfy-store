@@ -1,5 +1,13 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.openCart = void 0;
-const openCart = () => { };
-exports.openCart = openCart;
+import { getElement } from "../utils.js";
+const cartOverlay = getElement(".cart-overlay");
+const closeCartBtn = getElement(".cart-close");
+const toggleCartBtn = getElement(".toggle-cart");
+toggleCartBtn.addEventListener("click", () => {
+    cartOverlay.classList.add("show");
+});
+closeCartBtn.addEventListener("click", () => {
+    cartOverlay.classList.remove("show");
+});
+export const openCart = () => {
+    cartOverlay.classList.add("show");
+};

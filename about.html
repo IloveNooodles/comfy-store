@@ -15,7 +15,126 @@
   </head>
 
   <body>
-    <h2>about page</h2>
+    <!-- navbar  -->
+    <nav class="navbar page">
+      <div class="nav-center">
+        <!-- links  -->
+        <div>
+          <button class="toggle-nav">
+            <i class="fas fa-bars"></i>
+          </button>
+          <ul class="nav-links">
+            <li><a href="index.html" class="nav-link"> home </a></li>
+            <li><a href="products.html" class="nav-link"> products </a></li>
+            <li><a href="about.html" class="nav-link"> about </a></li>
+          </ul>
+        </div>
+        <!-- logo -->
+        <img src="./images/logo-black.svg" class="nav-logo" alt="logo" />
+        <!-- cart icon  -->
+        <div class="toggle-container">
+          <button class="toggle-cart">
+            <i class="fas fa-shopping-cart"></i>
+          </button>
+          <span class="cart-item-count">1</span>
+        </div>
+      </div>
+    </nav>
+    <!-- hero  -->
+    <section class="page-hero">
+      <div class="section-center">
+        <h3 class="page-hero-title">home / about</h3>
+      </div>
+    </section>
+
+    <!-- side bar  -->
+    <div class="sidebar-overlay">
+      <aside class="sidebar">
+        <!-- close btn  -->
+        <button class="sidebar-close">
+          <i class="fas fa-times"></i>
+        </button>
+        <!-- links  -->
+        <ul class="sidebar-links">
+          <li>
+            <a href="index.html" class="sidebar-link">
+              <i class="fas fa-home fa-fw"></i>home</a
+            >
+          </li>
+          <li>
+            <a href="products.html" class="sidebar-link">
+              <i class="fas fa-couch fa-fw"></i>products</a
+            >
+          </li>
+          <li>
+            <a href="about.html" class="sidebar-link">
+              <i class="fas fa-book fa-fw"></i>about</a
+            >
+          </li>
+        </ul>
+      </aside>
+    </div>
+
+    <!-- cart  -->
+    <div class="cart-overlay">
+      <aside class="cart">
+        <button class="cart-close">
+          <i class="fas fa-times"></i>
+        </button>
+        <header>
+          <h3 class="text-slanted">your bag</h3>
+        </header>
+        <!-- cart items  -->
+        <div class="cart-items">
+          <!-- single item  -->
+          <article class="cart-item" data-id="1">
+            <img
+              src="./images/main-bcg.jpeg"
+              class="cart-item-img"
+              alt="name"
+            />
+            <!-- item info  -->
+            <div>
+              <h4 class="cart-item-name">high-back bench</h4>
+              <p class="cart-item-price">$13.99</p>
+              <button class="cart-item-remove-btn">remove</button>
+            </div>
+            <!-- amount toggle  -->
+            <div>
+              <button class="cart-item-increase-btn">
+                <i class="fas fa-chevron-up"></i>
+              </button>
+              <p class="cart-item-amount">1</p>
+              <button class="cart-item-decrease-btn">
+                <i class="fas fa-chevron-down"></i>
+              </button>
+            </div>
+          </article>
+          <!-- end of single item  -->
+        </div>
+        <footer>
+          <h3 class="cart-total text-slanted">total: $12.99</h3>
+          <button class="cart-checkout btn">checkout</button>
+        </footer>
+      </aside>
+    </div>
+    <!-- about  -->
+    <div class="section section-center about-page">
+      <div class="title">
+        <h2><span>/</span> our history</h2>
+      </div>
+      <p class="about-text">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure voluptate
+        distinctio quae beatae consequuntur similique ut veniam eaque blanditiis
+        laudantium, voluptas minus autem, culpa repellendus? Possimus eum ex
+        beatae a assumenda tenetur inventore dolorum perferendis minus, dolorem
+        alias est ipsam maxime, laudantium consectetur itaque voluptates
+        accusamus sunt. Provident placeat tempore, est praesentium sit quidem
+        rem sed maiores aperiam, ducimus asperiores, sequi consequatur ad illo
+        fugit voluptatem similique aliquam ex. Quia neque consequatur sequi
+        quisquam veniam quae fuga nobis libero esse!
+      </p>
+    </div>
     <script type="module" src="./src/pages/about.js"></script>
   </body>
 </html>

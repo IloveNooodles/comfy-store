@@ -1,6 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 // global imports
-require("./src/toggleSidebar.js");
-require("./src/cart/toggleCart.js");
-require("./src/cart/setupCart.js");
+import './src/toggleSidebar.js';
+import './src/cart/toggleCart.js';
+import './src/cart/setupCart.js';
