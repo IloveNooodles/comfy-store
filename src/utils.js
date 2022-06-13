@@ -19,8 +19,8 @@ const formatPrice = (price) => {
     }).format(price / 100);
     return formattedPrice;
 };
-const getStorageItem = () => {
-    return JSON.parse(localStorage.getItem("store") || "") || [];
+const getStorageItem = (item) => {
+    return JSON.parse(localStorage.getItem(item)) || [];
 };
 const setStorageItem = (name, value) => {
     localStorage.setItem(name, JSON.stringify(value));
