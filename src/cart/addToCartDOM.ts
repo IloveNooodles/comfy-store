@@ -23,7 +23,6 @@ const addToCartDOM = ({ id, name, price, amount, image }) => {
                 <i class="fas fa-chevron-down"></i>
               </button>
             </div>`;
-  console.log(article);
   cartItemsDOM.appendChild(article);
 };
 
